@@ -1,0 +1,14 @@
+{
+  "very_high_cpu": 0.005,
+  "high_cpu": 0.004,
+  "medium_cpu": 0.003,
+  "low_cpu": 0.0025,
+  "very_high_memory": 0.0007,
+  "high_memory": 0.0006,
+  "medium_memory": 0.0005,
+  "low_memory": 0.00045,
+  "very_high_io": 0.00006,
+  "high_io": 0.000055,
+  "medium_io": 0.00005,
+  "low_io": 0.000045
+}

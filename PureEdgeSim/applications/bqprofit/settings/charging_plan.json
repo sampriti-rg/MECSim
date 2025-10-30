@@ -1,0 +1,8 @@
+{
+  "cpu": 0.005,
+  "memory": 0.001,
+  "io": 0.0001,
+  "penalty": 1.0,
+  "hard_deadline_surcharge": 0.15,
+  "high_demand_surcharge": 0.1
+}

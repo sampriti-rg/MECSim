@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<cloud_data_centers>
+	<datacenter name="cloud">
+		<nodes>
+			<node name="node1">
+				<idleConsumption>0</idleConsumption>
+				<maxConsumption>5776</maxConsumption>
+				<isOrchestrator>false</isOrchestrator> <!-- it has a task orchestrator or not  -->
+				<location>
+					<x_pos>150000</x_pos>
+					<y_pos>150000</y_pos>
+				</location>
+				<ID>10</ID>
+				<cores>200</cores>
+				<mips>4000000</mips>
+				<ram>1600000</ram>
+				<storageMeta>
+					<HDD>
+						<storage>2000000</storage>
+						<readBandwidth>1000</readBandwidth>
+						<writeBandwidth>500</writeBandwidth>
+					</HDD>
+				</storageMeta>
+				<gpuEnabled>false</gpuEnabled>
+				<pimEnabled>false</pimEnabled>
+				<dataBusBandwidth>30000000</dataBusBandwidth>
+			</node>
+		</nodes>
+	</datacenter>
+</cloud_data_centers>

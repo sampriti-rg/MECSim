@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<cloud_data_centers>
+	<datacenter>
+		<nodes>
+			<node name="node1">
+				<idleConsumption>0</idleConsumption>
+				<maxConsumption>5776</maxConsumption>
+				<isOrchestrator>false</isOrchestrator>
+				<location>
+					<x_pos>150000</x_pos>
+					<y_pos>150000</y_pos>
+				</location>
+				<cores>200</cores>
+				<mips>4000000</mips>
+				<ram>1600000</ram>
+				<storageMeta>
+					<HDD>
+						<storage>2000000</storage>
+						<readBandwidth>1000</readBandwidth>
+						<writeBandwidth>500</writeBandwidth>
+					</HDD>
+				</storageMeta>
+				<dataBusBandwidth>30000000</dataBusBandwidth>
+				<costPlan>
+					<costPerMi>0.002</costPerMi>
+					<costPerMB>0.0004</costPerMB>
+					<costPerIo>0.00004</costPerIo>
+				</costPlan>
+			</node>
+		</nodes>
+	</datacenter>
+</cloud_data_centers>
