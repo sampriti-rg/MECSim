@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<edge_devices>
+	<!-- here you can define the types of edge devices, and how many devices 
+		of this type there will be in this case , there are 4 types of devices(defined 
+		here), 30 percent of all devices will be of the first type, this percentage 
+		is defined here <percentage> -->
+
+	<device> <!-- this is a raspberry pi model B+-->
+		<connectivity>wifi</connectivity>
+		<mobility>false</mobility>
+		<speed>0</speed>
+		<minPauseDuration>0</minPauseDuration>
+		<maxPauseDuration>0</maxPauseDuration>
+		<minMobilityDuration>0</minMobilityDuration>
+		<maxMobilityDuration>0</maxMobilityDuration>
+		<battery>false</battery>
+		<percentage>100</percentage>
+		<batteryCapacity>0</batteryCapacity>
+		<idleConsumption>0.000013</idleConsumption>
+		<maxConsumption>5.1</maxConsumption>
+		<isOrchestrator>false</isOrchestrator>
+		<generateTasks>false</generateTasks>
+		<cores>4</cores>
+		<mips>1000</mips>
+		<ram>1000</ram>
+		<storage>32000</storage>
+		<dvfs>false</dvfs>
+	</device>
+</edge_devices>
