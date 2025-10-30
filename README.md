@@ -70,9 +70,6 @@ MECSim supports following exclusive features.
 * It supports reliability-aware offloading and selective task replication.
 * It has option to simulate user device failure
 
-![Real time charts](https://github.com/CharafeddineMechalikh/PureEdgeSim/blob/master/PureEdgeSim/files/real%20time.gif)
-The live visualization of the simulated environement
-
 ### Efficiency and Scalability similar to PureEdgeSim
 A system is said to be efficient when it can maintain a specified level of proficiency without utilizing an excessive amount of resources, i.e., execution time and memory. Determining the theoretical time complexity of the given simulation is not trivial because the execution time depends entirely on the user scenario (i.e., the devices and tasks count, the mobility model, the types of resources, etc.) and the number of events that occur during the simulation. Furthermore, some parameters strongly influence the number of simulations and, obviously, the number of runs also directly influences the execution time.
 To demonstrate the scalability of PureEdgeSim, a few experiments were conducted on a single Intel Core i7-8550U.
@@ -116,27 +113,6 @@ The simplest and recommended method to run this project is to use an IDE like Ec
 4.    It is necessary to convert the project into a Maven project in order to download all the required libraries.
 5.    Once all the necessary libraries are downloaded, users can start with the most basic examples by running any of the classes located in the “examples” package.
 6.    To build a new simulation scenario, the simplest way is to create another class in this package.
-
-![Environment](https://github.com/CharafeddineMechalikh/PureEdgeSim/blob/master/PureEdgeSim/files/importingproject.gif)
-Importing PureEdgeSim project
-
-### Adding PureEdgeSim as a Dependency
-
-It is possible to use PureEdgeSim as a dependency in a Maven project, by inserting the dependency  below into the pom.xml file:
-```xml
-<dependency>
-	<groupId>com.mechalikh</groupId>
-	<artifactId>pureedgesim</artifactId>
-	<version>5.0.0</version>
-</dependency>
-```
-Or on Gradle :
-
-```groovy
-dependencies {
- implementation 'com.mechalikh:pureedgesim:5.0.0'
-}
-````
 
 ### Via Command Line
 
